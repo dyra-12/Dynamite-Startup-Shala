@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,39 @@
     <script defer src="js/client.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><span>S</span>tartup-shala</a>
+
+        <nav class="navbar">
+            <a href="homepage.html">Home</a>
+            <a href="../post/index.html"> Post</a>
+            <a href="../chat/index.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
     <nav>
-        
+
         <h1>Welcome to Support-Chat </h1>
         <h4>A Realtime Application to ask for support and guidance from top mentors</h4>
     </nav>
-    <div class="container"></div> 
+    <div class="container"></div>
     <div class="send">
         <form action="#" id="send-container">
             <input type="text" name="messageInp" id="messageInp">
@@ -22,4 +49,5 @@
         </form>
     </div>
 </body>
+
 </html>

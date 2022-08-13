@@ -1,3 +1,5 @@
+const nodemon = require('nodemon');
+
 // Node server which will handle socket io connections
 const io = require('socket.io')(8000)
 
