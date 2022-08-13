@@ -11,13 +11,16 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-var ref = firebase.database().ref();
+var ref = firebase.database().ref("contactForm");
 
 ref.on("value", function(snapshot) {
-   document.getElementById("greeting").innerHTML = snapshot.val();
+   
    console.log(snapshot.val());
 }, function (error) {
    console.log("Error: " + error.code);
 });
 
+/*************************************************************************************************** */
 
+
+/************************************************************************************************************ */
