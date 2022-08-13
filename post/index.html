@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Shala | Post</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Your form sent</div>
+
+            
+            <div class="inputBox">
+                <input type="text" id="name" placeholder="Your Organisation Name...." />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Business Proposal"></textarea>
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="inv" placeholder="Investment Needed" />
+            </div>
+
+            <div class="inputBox">
+                <input type="email" id="emailid" placeholder="Your Email....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="number" id="number" placeholder="Your Phone Number....." />
+            </div>
+
+            <div class="inputBox">
+                <input type="url" id="weblink" placeholder="Website Link" />
+            </div>
+
+            <div class="inputBox">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <script src="../blog/blog.js"></script>
+</body>
+
+</html>
